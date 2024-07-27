@@ -31,13 +31,72 @@
           <li class="header-address-item"><a class="header-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+
+      <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-hero-menu"></use>
+        </svg>
+      </button>
     </div>
+
+    <div class="mobile-menu is-open">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close">Close</button>
+        <nav class="mobile-menu-nav">
+        <ul class="mobmenu-list">
+          <li class="mobmenu-item">
+            <a class="mobmenu-link current" href="./index.html">Studio</a></li>
+          <li class="mobmenu-item"><a class="mobmenu-link" href="">Portfolio</a></li>
+          <li class="mobmenu-item"><a class="mobmenu-link" href="">Contacts</a></li>
+        </ul>
+        </nav>
+        <address>
+          <ul class="mobmenu-address-list">
+            <li class="mobmenu-address-item"><a class="mobmenu-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="mobmenu-address-item"><a class="mobmenu-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          </ul>
+        </address>
+        <div>
+          <ul class="mobmenu-soc-list">
+            <li class="mobmenu-soc-item">
+              <a class="mobmenu-soc-link" href="">
+                <svg class="soc-icon mobmenu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobmenu-soc-item">
+              <a class="mobmenu-soc-link" href="">
+                <svg class="soc-icon mobmenu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobmenu-soc-item">
+              <a class="mobmenu-soc-link" href="">
+                <svg class="soc-icon mobmenu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobmenu-soc-item">
+              <a class="mobmenu-soc-link" href="">
+                <svg class="soc-icon mobmenu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
   </header>
 
   <!-- main -->
   <main>
     <!-- Початок секції hero -->
-    <section class="hero">
+    <section class="hero hidden">
       <div class="container">
         <h1 class="hero-title">Effective Solutions
           for Your Business</h1>
@@ -46,7 +105,7 @@
     </section>
 
     <!-- Початок секції Advantages -->
-    <section class="advantages">
+    <section class="advantages hidden">
 <div class="container">
         <h2 class="advantages-title visually-hidden">Advantages</h2>
         <Ul class="advantages-list">
@@ -83,7 +142,7 @@
     </section>
 
     <!-- Початок секції Team -->
-    <section class="team">
+    <section class="team hidden">
 <div class="container">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
@@ -176,7 +235,7 @@
     </section>
 
     <!-- Початок секції Портфоліо -->
-    <Section class="portfolio">
+    <Section class="portfolio hidden">
 <div class="container">
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-list">
@@ -244,7 +303,7 @@
 </div>
     </Section>
   </main>
-  <footer class="footer">
+  <footer class="footer hidden">
 <div class="container footer-container">
   <div class="footer-blok">
         <a class="logo footer-logo" href="./index.html">Web<span class="logo-studio">Studio</span></a>
@@ -309,7 +368,7 @@
 
 
 
-<div class="backdrop is-open">
+<div class="backdrop is-open hidden">
   <div class="modal">
     <button type="button" class="modal-close-btn"><svg class="icon-close-btn" width="8" height="8">
       <use href="./images/icons.svg#icon-close"></use>
