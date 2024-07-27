@@ -480,25 +480,20 @@ padding-top: 72px;
 }
 
 
-.modal-title {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2E2F42;
-  margin-bottom: 16px;
-}
+
+
+
+
+
+
+
 .modal-field {
   margin-bottom: 8px;
 }
-.modal-label {
-  display: block;
-  font-size: 12px;
-  /* line-height: 1.16667; виявляэться треба округлювати значення */
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  margin-bottom: 4px;
-}
+
+
+
+
 
 .modal-input {
   width: 100%;
@@ -572,20 +567,8 @@ padding-top: 72px;
 .field-checkbox-gap {
   margin-bottom: 24px;
 }
-.modal-check-text {
-  /* display: flex; */
-  /* align-items: center;
-  gap: 8px; */
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-}
 
-/* .modal-check-span {
-  display: inline-flex;
-} */
+
 .modal-check-text span {
   margin-right: 8px;
   width: 16px;
